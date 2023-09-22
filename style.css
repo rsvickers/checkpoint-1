@@ -1,3 +1,8 @@
+/* SECTION element selectors */
+
+
+/* SECTION class selectors */
+
 .funFont {
     font-family: 'Black Ops One', cursive;
 }
@@ -14,14 +19,21 @@
 .box {
     background-color: white;
     border-radius: 1%;
-    width: 40vw;
-    height: 30vh;
+    min-width: 45vw;
+    max-height: 100vh;
     align-items: center;
+    box-shadow: 0px 5px 20px black;
 }
 
-.shadow {
-    box-shadow: 0px 20px 20px rgb(0, 0, 0);
+.box2 {
+    background-color: white;
+    border-radius: 1%;
+    max-width: 45vh;
+    max-height: 50vh;
+    align-items: center;
+    box-shadow: 0px 5px 20px black;
 }
+
 
 /* SECTION background colors */
 .bgMain {
@@ -35,5 +47,10 @@
 /* SECTION text colors */
 
 .textMain {
-    color: rgba(211, 77, 0, 0.91)
+    color: rgba(211, 77, 0, 0.91);
+    text-shadow: 1.5px 1.5px rgba(47, 47, 47, 0.884);
+}
+
+.biggerText {
+    font-size: 9em;
 }
