@@ -1,4 +1,10 @@
-/* SECTION element selectors */
+/* SECTION absolute */
+
+.absolute {
+    position: absolute;
+    left: 49%;
+    top: 60%;
+}
 
 
 /* SECTION class selectors */
@@ -53,4 +59,15 @@
 
 .biggerText {
     font-size: 9em;
+}
+
+
+/* SECTION media tags */
+
+@media (max-width: 767px) {
+    .absolute {
+        position: absolute;
+        left: 1%;
+        top: -71%;
+    }
 }
